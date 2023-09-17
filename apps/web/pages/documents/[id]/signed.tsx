@@ -16,7 +16,7 @@ const Signed: NextPageWithLayout = (props: any) => {
   return (
     <>
       <Head>
-        <title>Sign | Documenso</title>
+        <title>Sign | Docutool</title>
       </Head>
       <div className="mx-auto w-fit px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <CheckBadgeIcon className="text-neon mr-1 inline w-10"></CheckBadgeIcon>
@@ -53,12 +53,12 @@ const Signed: NextPageWithLayout = (props: any) => {
           <div className="relative flex justify-center"></div>
         </div>
       </div>
-      <p className="mt-4 text-center text-sm text-gray-600">
+      {/* <p className="mt-4 text-center text-sm text-gray-600">
         Want to send slick signing links like this one?{" "}
         <Link href="https://documenso.com" className="text-neon hover:text-neon font-medium">
           Hosted Documenso is here!
         </Link>
-      </p>
+      </p> */}
     </>
   );
 };

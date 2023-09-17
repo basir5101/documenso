@@ -83,7 +83,7 @@ export default function Setttings() {
   return (
     <div>
       <Head>
-        <title>Settings | Documenso</title>
+        <title>Settings | Docutool</title>
       </Head>
       <header className="py-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

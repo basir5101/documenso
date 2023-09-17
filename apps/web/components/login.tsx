@@ -151,12 +151,12 @@ export default function Login(props: any) {
                 </p>
               ) : (
                 <p className="mt-2 text-center text-sm text-gray-600">
-                  Like Documenso{" "}
+                  {/* Like Documenso{" "}
                   <Link
                     href="https://documenso.com"
                     className="text-neon hover:text-neon font-medium">
                     Hosted Documenso is here!
-                  </Link>
+                  </Link> */}
                 </p>
               )}
             </form>

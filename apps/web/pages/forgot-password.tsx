@@ -7,7 +7,7 @@ export default function ForgotPasswordPage() {
   return (
     <>
       <Head>
-        <title>Forgot Password | Documenso</title>
+        <title>Forgot Password | Docutool</title>
       </Head>
       <ForgotPassword />
     </>

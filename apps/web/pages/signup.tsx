@@ -7,7 +7,7 @@ export default function SignupPage(props: { source: string }) {
   return (
     <>
       <Head>
-        <title>Signup | Documenso</title>
+        <title>Signup | Docutool</title>
       </Head>
       <Signup source={props.source}></Signup>
     </>

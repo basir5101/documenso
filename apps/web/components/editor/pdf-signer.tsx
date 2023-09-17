@@ -71,8 +71,8 @@ export default function PDFSigner(props: any) {
       <div className="bg-neon p-4">
         <div className="flex">
           <div className="flex-shrink-0 flex gap-x-2 items-center">
+            
             <Logo className="h-8 w-8 text-black" />
-            <h2 className="text-2xl font-semibold">Documenso</h2>
           </div>
 
           <div className="mx-3 flex-1 items-center justify-start text-center md:flex md:justify-between">

@@ -6,6 +6,7 @@ import { XCircleIcon } from "@heroicons/react/24/outline";
 import { signIn } from "next-auth/react";
 import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
+import Logo from "./logo";
 
 type FormValues = {
   email: string;
@@ -100,8 +101,9 @@ export default function Signup(props: { source: string }) {
       <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-md space-y-8">
           <div>
+            <Logo />
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-              Create a shiny, new <br></br>Documenso Account{" "}
+              Create New Account{" "}
               <svg
                 fill="none"
                 viewBox="0 0 24 24"
@@ -115,10 +117,7 @@ export default function Signup(props: { source: string }) {
                 />
               </svg>
             </h2>
-            <p className="mt-2 text-center text-sm text-gray-600">
-              Create your account and start using<br></br>
-              state-of-the-art document signing for free.
-            </p>
+            
           </div>
           {renderApiError()}
           {renderFormValidation()}

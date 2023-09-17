@@ -11,7 +11,7 @@ const SignPage: NextPageWithLayout = (props: any) => {
   return (
     <>
       <Head>
-        <title>Sign | Documenso</title>
+        <title>Sign | Docutool</title>
       </Head>
       {!props.expired ? (
         <PDFSigner document={props.document} recipient={props.recipient} fields={props.fields} />

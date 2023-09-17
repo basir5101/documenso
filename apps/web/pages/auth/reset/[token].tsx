@@ -6,7 +6,7 @@ export default function ResetPasswordPage() {
   return (
     <>
       <Head>
-        <title>Reset Password | Documenso</title>
+        <title>Reset Password | Docutool</title>
       </Head>
       <ResetPassword />
     </>

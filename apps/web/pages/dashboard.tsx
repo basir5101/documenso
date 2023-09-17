@@ -53,7 +53,7 @@ const DashboardPage: NextPageWithLayout = (props: any) => {
   return (
     <>
       <Head>
-        <title>Dashboard | Documenso</title>
+        <title>Dashboard | Docutool</title>
       </Head>
 
       <div className="py-10 max-sm:px-4">

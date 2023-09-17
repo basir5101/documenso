@@ -10,7 +10,7 @@ export default function Custom500() {
       <div className="relative flex min-h-full flex-col items-center justify-center bg-black text-white">
         <Link href="/" className="absolute top-10 left-10 flex items-center gap-x-2 invert">
           <Logo className="w-10 text-black" />
-          <h2 className="text-2xl font-semibold text-black">Documenso</h2>
+          <h2 className="text-2xl font-semibold text-black">Docutool</h2>
         </Link>
 
         <div className="mt-20 max-w-7xl px-4 py-10">

@@ -6,7 +6,7 @@ export default function LoginPage(props: any) {
   return (
     <>
       <Head>
-        <title>Login | Documenso</title>
+        <title>Login | Docutool</title>
       </Head>
       <Login allowSignup={props.ALLOW_SIGNUP}></Login>
     </>

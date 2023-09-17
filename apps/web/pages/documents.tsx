@@ -123,7 +123,7 @@ const DocumentsPage: NextPageWithLayout = (props: any) => {
   return (
     <>
       <Head>
-        <title>Documents | Documenso</title>
+        <title>Documents | Docutool</title>
       </Head>
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="mt-10 sm:flex sm:items-center">
